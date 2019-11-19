@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <Title>Shopping </Title>
+    </head>
+            <body>
+                <h1 style="color:Pink"><b>Shopping Destination</b></h1>
+                
+                <p style="color:Blue"><b>Mens</b></p>
+                <button onclick=details1()>open</button>
+                <a href="https://www.google.com/search?biw=1536&bih=750&tbm=isch&sxsrf=ACYBGNSPsnDU8mzLbCcNUPTzWMZWXpSurQ%3A1574187739708&sa=1&ei=2zLUXc30KrqY4-EP6buVsAM&q=menswear&oq=MENSWEAR&gs_l=img.1.1.35i39j0i67j0j0i67l2j0l5.2923.2923..5642...0.0..0.602.602.5-1......0....1..gws-wiz-img.rVuY96jdd2U#imgrc=GsQG0MxITWecOM:">image</a>
+                
+                <script>
+                function details1()
+                {
+                    alert("its men's apparel" )
+                     
+                    
+                }
+                </script>
+                
+                <p style="color:Red"><b>Women</b></p>
+                
+                <button onclick=details2()>open</button>
+                <script>
+                function details2()
+                {
+                    alert("its women's apparel")
+                   
+                }
+                </script>
+                    <p style="color:Green" ><b>kids</b></p>
+                    <button onclick=details3()>open</button>
+                    <script>
+                    function details3()
+                    {
+                      alert("its kids apparel")
+                      
+                    }
+                    </script>
+                    <p style="color:Violet"><b>House Hold</b></p>
+                    <button onclick=details4()>open</button>
+                <script>
+                function details4()
+                {
+                    alert(" house hold things")
+                }
+            </script>
+              </body>  
+                
+                
+                
+           
+</html>
